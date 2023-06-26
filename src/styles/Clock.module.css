@@ -1,0 +1,10 @@
+.clock {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 40%;
+  font-size: 70px;
+  font-weight: bold;
+}

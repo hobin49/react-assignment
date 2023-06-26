@@ -1,0 +1,25 @@
+input {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 62%;
+  left: 40%;
+  font-size: 20px;
+  font-weight: bold;
+  width: 270px;
+  height: 30px;
+}
+
+.name {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 62%;
+  left: 40%;
+  font-weight: bold;
+  width: 270px;
+  height: 30px;
+  font-size: 30px;
+}
