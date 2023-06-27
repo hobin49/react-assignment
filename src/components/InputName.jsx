@@ -18,7 +18,7 @@ const InputName = () => {
   }
   return (
     <div>
-    {!isEntered && <input id="name" value={name} onChange={handleChange} onKeyPress={handleKeyPress} className={styles.input}/>}
+    {!isEntered && <input id="name" value={name} onChange={handleChange} onKeyPress={handleKeyPress} className={styles.input} placeholder="이름을 입력하세요"/>}
     {isEntered && <div id="content" className={styles.name}>Hello {name}</div>}
   </div>
   )

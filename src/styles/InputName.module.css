@@ -1,4 +1,4 @@
-input {
+.input {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -9,6 +9,10 @@ input {
   font-weight: bold;
   width: 270px;
   height: 30px;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  text-align: center;
 }
 
 .name {
